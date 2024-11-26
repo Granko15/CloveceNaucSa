@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="player2_6" size="50.000000 50.000000" />
+    <ImageTarget name="player2_5" size="50.000000 50.000000" />
+    <ImageTarget name="player2_4" size="50.000000 50.000000" />
+    <ImageTarget name="player2_3" size="50.000000 50.000000" />
+    <ImageTarget name="player2_2" size="50.000000 50.000000" />
+    <ImageTarget name="player2_1" size="50.000000 50.000000" />
+    <ImageTarget name="player1_6" size="50.000000 50.000000" />
+    <ImageTarget name="player1_5" size="50.000000 50.000000" />
+    <ImageTarget name="player1_4" size="50.000000 50.000000" />
+    <ImageTarget name="player1_3" size="50.000000 50.000000" />
+    <ImageTarget name="player1_2" size="50.000000 50.000000" />
+    <ImageTarget name="player1_1" size="50.000000 50.000000" />
+  </Tracking>
+</QCARConfig>
