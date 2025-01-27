@@ -38,7 +38,7 @@ public class FaceDetector : MonoBehaviour
                     dice.diceFaceNumber = 1;
                     break;
               }
-              Debug.Log("Face: " + dice.diceFaceNumber);
+              //Debug.Log("Face: " + dice.diceFaceNumber);
             }
         }
     }
