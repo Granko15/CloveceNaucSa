@@ -4,14 +4,29 @@ using UnityEngine;
 
 public class QuizQuestion 
 {
-    private string questionText {get; set;}
-    private List<string> options {get; set;}
-    private string answer {get; set;}
+    private string QuestionText {get; set;}
+    private List<string> Options {get; set;}
+    private string Answer {get; set;}
 
     public QuizQuestion(string questionText, List<string> options, string answer)
     {
-        this.questionText = questionText;
-        this.options = options;
-        this.answer = answer;
+        this.QuestionText = questionText;
+        this.Options = options;
+        this.Answer = answer;
     }
+
+    public string GetQuestionText()
+    {
+        return this.QuestionText;
+    }
+
+    public List<string> GetOptions()
+    {
+        return this.Options;
+    }
+
+    public string GetAnswer() 
+    {
+        return this.Answer;
+    } 
 }
