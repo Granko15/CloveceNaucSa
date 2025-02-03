@@ -1,0 +1,262 @@
+{
+    "questions": [
+        {
+            "question": "What is 12 divided by 3?",
+            "correctAnswer": "4",
+            "options": ["3", "4", "6"],
+            "category": "Math"
+        },
+        {
+            "question": "How many sides does a hexagon have?",
+            "correctAnswer": "6",
+            "options": ["5", "6", "8"],
+            "category": "Math"
+        },
+        {
+            "question": "Which planet is known as the Red Planet?",
+            "correctAnswer": "Mars",
+            "options": ["Mars", "Venus", "Jupiter"],
+            "category": "Science"
+        },
+        {
+            "question": "What is the capital of France?",
+            "correctAnswer": "Paris",
+            "options": ["Paris", "London", "Rome"],
+            "category": "Geography"
+        },
+        {
+            "question": "What do caterpillars turn into?",
+            "correctAnswer": "Butterflies",
+            "options": ["Butterflies", "Moths", "Beetles"],
+            "category": "Science"
+        },
+        {
+            "question": "What is 8 multiplied by 7?",
+            "correctAnswer": "56",
+            "options": ["56", "54", "64"],
+            "category": "Math"
+        },
+        {
+            "question": "What is the freezing point of water in degrees Celsius?",
+            "correctAnswer": "0",
+            "options": ["0", "32", "100"],
+            "category": "Science"
+        },
+        {
+            "question": "What do you call an animal that eats both plants and meat?",
+            "correctAnswer": "Omnivore",
+            "options": ["Herbivore", "Omnivore", "Carnivore"],
+            "category": "Science"
+        },
+        {
+            "question": "Which ocean is the largest on Earth?",
+            "correctAnswer": "Pacific Ocean",
+            "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean"],
+            "category": "Geography"
+        },
+        {
+            "question": "What type of shape has 4 equal sides and 4 right angles?",
+            "correctAnswer": "Square",
+            "options": ["Rectangle", "Square", "Rhombus"],
+            "category": "Math"
+        },
+        {
+            "question": "Which instrument is used to measure temperature?",
+            "correctAnswer": "Thermometer",
+            "options": ["Barometer", "Thermometer", "Hygrometer"],
+            "category": "Science"
+        },
+        {
+            "question": "What is the name of the fairy in Peter Pan?",
+            "correctAnswer": "Tinker Bell",
+            "options": ["Cinderella", "Tinker Bell", "Wendy"],
+            "category": "Literature"
+        },
+        {
+            "question": "If you have 3 apples and you eat 1, how many do you have left?",
+            "correctAnswer": "2",
+            "options": ["1", "2", "3"],
+            "category": "Math"
+        },
+        {
+            "question": "What gas do plants produce during photosynthesis?",
+            "correctAnswer": "Oxygen",
+            "options": ["Nitrogen", "Oxygen", "Carbon Dioxide"],
+            "category": "Science"
+        },
+        {
+            "question": "How many legs do spiders have?",
+            "correctAnswer": "8",
+            "options": ["6", "8", "10"],
+            "category": "Science"
+        },
+        {
+            "question": "What is the opposite of 'cold'?",
+            "correctAnswer": "Hot",
+            "options": ["Warm", "Hot", "Dry"],
+            "category": "Language"
+        },
+        {
+            "question": "How many days are there in a year?",
+            "correctAnswer": "365",
+            "options": ["364", "365", "366"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the largest land animal on Earth?",
+            "correctAnswer": "Elephant",
+            "options": ["Elephant", "Giraffe", "Rhinoceros"],
+            "category": "Science"
+        },
+        {
+            "question": "What do you call a baby frog?",
+            "correctAnswer": "Tadpole",
+            "options": ["Froglet", "Tadpole", "Nymph"],
+            "category": "Science"
+        },
+        {
+            "question": "What color are bananas when they are ripe?",
+            "correctAnswer": "Yellow",
+            "options": ["Green", "Yellow", "Brown"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which planet is closest to the Sun?",
+            "correctAnswer": "Mercury",
+            "options": ["Venus", "Mercury", "Mars"],
+            "category": "Science"
+        },
+        {
+            "question": "What is 15 + 8?",
+            "correctAnswer": "23",
+            "options": ["23", "22", "25"],
+            "category": "Math"
+        },
+        {
+            "question": "How many continents are there on Earth?",
+            "correctAnswer": "7",
+            "options": ["5", "6", "7"],
+            "category": "Geography"
+        },
+        {
+            "question": "What is the main gas found in the air we breathe?",
+            "correctAnswer": "Nitrogen",
+            "options": ["Oxygen", "Nitrogen", "Carbon Dioxide"],
+            "category": "Science"
+        },
+        {
+            "question": "Which country is famous for pizza and pasta?",
+            "correctAnswer": "Italy",
+            "options": ["France", "Italy", "Spain"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the square root of 64?",
+            "correctAnswer": "8",
+            "options": ["6", "7", "8"],
+            "category": "Math"
+        },
+        {
+            "question": "Which force pulls objects toward the ground?",
+            "correctAnswer": "Gravity",
+            "options": ["Friction", "Magnetism", "Gravity"],
+            "category": "Science"
+        },
+        {
+            "question": "How many colors are in a rainbow?",
+            "correctAnswer": "7",
+            "options": ["5", "6", "7"],
+            "category": "Science"
+        },
+        {
+            "question": "Which body part helps you to hear?",
+            "correctAnswer": "Ears",
+            "options": ["Eyes", "Nose", "Ears"],
+            "category": "Biology"
+        },
+        {
+            "question": "Which season comes after summer?",
+            "correctAnswer": "Autumn",
+            "options": ["Winter", "Spring", "Autumn"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is 10 x 10?",
+            "correctAnswer": "100",
+            "options": ["100", "90", "110"],
+            "category": "Math"
+        },
+        {
+            "question": "Which animal is known as the king of the jungle?",
+            "correctAnswer": "Lion",
+            "options": ["Tiger", "Lion", "Leopard"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What type of animal is a whale?",
+            "correctAnswer": "Mammal",
+            "options": ["Mammal", "Fish", "Reptile"],
+            "category": "Science"
+        },
+        {
+            "question": "What is the smallest planet in our solar system?",
+            "correctAnswer": "Mercury",
+            "options": ["Venus", "Mercury", "Mars"],
+            "category": "Science"
+        },
+        {
+            "question": "What do bees make?",
+            "correctAnswer": "Honey",
+            "options": ["Milk", "Honey", "Nectar"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do you call a place with lots of trees?",
+            "correctAnswer": "Forest",
+            "options": ["Garden", "Forest", "Farm"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the third planet from the Sun?",
+            "correctAnswer": "Earth",
+            "options": ["Mars", "Venus", "Earth"],
+            "category": "Science"
+        },
+        {
+            "question": "What do we call animals that only eat plants?",
+            "correctAnswer": "Herbivores",
+            "options": ["Carnivores", "Omnivores", "Herbivores"],
+            "category": "Science"
+        },
+        {
+            "question": "Which fruit is known to keep the doctor away?",
+            "correctAnswer": "Apple",
+            "options": ["Banana", "Apple", "Orange"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which country is famous for the Eiffel Tower?",
+            "correctAnswer": "France",
+            "options": ["Germany", "Italy", "France"],
+            "category": "Geography"
+        },
+        {
+            "question": "What color do you get by mixing red and blue?",
+            "correctAnswer": "Purple",
+            "options": ["Green", "Purple", "Brown"],
+            "category": "Art"
+        },
+        {
+            "question": "Which bird is known for saying 'Who'?",
+            "correctAnswer": "Owl",
+            "options": ["Crow", "Owl", "Sparrow"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the capital of the USA?",
+            "correctAnswer": "Washington D.C.",
+            "options": ["New York", "Washington D.C.", "Los Angeles"],
+            "category": "Geography"
+        }
+    ]
+}

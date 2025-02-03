@@ -1,12 +1,10 @@
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
-public class QuizQuestion 
+public class QuizQuestion
 {
-    private string QuestionText {get; set;}
-    private List<string> Options {get; set;}
-    private string Answer {get; set;}
+    private string QuestionText { get; }
+    private List<string> Options { get; }
+    private string Answer { get; }
 
     public QuizQuestion(string questionText, List<string> options, string answer)
     {
@@ -25,8 +23,8 @@ public class QuizQuestion
         return this.Options;
     }
 
-    public string GetAnswer() 
+    public string GetAnswer()
     {
         return this.Answer;
-    } 
+    }
 }
