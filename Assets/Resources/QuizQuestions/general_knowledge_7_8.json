@@ -1,0 +1,286 @@
+{
+    "questions": [
+        {
+            "question": "What is the name of the tallest animal on Earth?",
+            "correctAnswer": "Giraffe",
+            "options": ["Elephant", "Giraffe", "Lion"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do plants need to make food?",
+            "correctAnswer": "Sunlight",
+            "options": ["Sunlight", "Rain", "Wind"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which country is known for the Great Wall?",
+            "correctAnswer": "China",
+            "options": ["Japan", "China", "India"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the capital of England?",
+            "correctAnswer": "London",
+            "options": ["Paris", "London", "Rome"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which planet is known as the Red Planet?",
+            "correctAnswer": "Mars",
+            "options": ["Venus", "Mars", "Jupiter"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do you call a baby horse?",
+            "correctAnswer": "Foal",
+            "options": ["Pony", "Foal", "Calf"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which shape has four equal sides?",
+            "correctAnswer": "Square",
+            "options": ["Rectangle", "Square", "Triangle"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "How many continents are there on Earth?",
+            "correctAnswer": "7",
+            "options": ["5", "6", "7"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which instrument is used to tell time?",
+            "correctAnswer": "Clock",
+            "options": ["Clock", "Compass", "Telescope"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which ocean is the largest in the world?",
+            "correctAnswer": "Pacific Ocean",
+            "options": ["Indian Ocean", "Atlantic Ocean", "Pacific Ocean"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the currency used in the United States?",
+            "correctAnswer": "Dollar",
+            "options": ["Euro", "Dollar", "Yen"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do you call molten rock that comes from a volcano?",
+            "correctAnswer": "Lava",
+            "options": ["Lava", "Magma", "Ash"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which animal is known as the king of the jungle?",
+            "correctAnswer": "Lion",
+            "options": ["Tiger", "Lion", "Cheetah"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What does a caterpillar turn into?",
+            "correctAnswer": "Butterfly",
+            "options": ["Butterfly", "Bee", "Worm"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What type of tree do acorns come from?",
+            "correctAnswer": "Oak",
+            "options": ["Maple", "Oak", "Pine"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which sport is known as the 'king of sports'?",
+            "correctAnswer": "Soccer",
+            "options": ["Basketball", "Tennis", "Soccer"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the main gas that we breathe in air?",
+            "correctAnswer": "Oxygen",
+            "options": ["Nitrogen", "Oxygen", "Carbon Dioxide"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "How many legs does an insect have?",
+            "correctAnswer": "6",
+            "options": ["6", "8", "10"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which famous ship sank after hitting an iceberg?",
+            "correctAnswer": "Titanic",
+            "options": ["Titanic", "Queen Mary", "Lusitania"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which animal lives in a den and is known for its long hibernation?",
+            "correctAnswer": "Bear",
+            "options": ["Fox", "Bear", "Wolf"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which season comes after spring?",
+            "correctAnswer": "Summer",
+            "options": ["Winter", "Summer", "Autumn"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do you use to take a photograph?",
+            "correctAnswer": "Camera",
+            "options": ["Telescope", "Camera", "Microscope"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which food is known as the staple food of Italy?",
+            "correctAnswer": "Pasta",
+            "options": ["Rice", "Bread", "Pasta"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do you call a baby cow?",
+            "correctAnswer": "Calf",
+            "options": ["Foal", "Calf", "Cub"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which animal is famous for carrying its home on its back?",
+            "correctAnswer": "Turtle",
+            "options": ["Crab", "Turtle", "Snail"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the name of the fairy in Peter Pan?",
+            "correctAnswer": "Tinker Bell",
+            "options": ["Cinderella", "Tinker Bell", "Wendy"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which large bird cannot fly but can run fast?",
+            "correctAnswer": "Ostrich",
+            "options": ["Penguin", "Ostrich", "Emu"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do you call the water droplets that fall from clouds?",
+            "correctAnswer": "Rain",
+            "options": ["Rain", "Snow", "Hail"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What color is a flamingo?",
+            "correctAnswer": "Pink",
+            "options": ["White", "Pink", "Blue"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which superhero can climb walls and shoot webs?",
+            "correctAnswer": "Spider-Man",
+            "options": ["Batman", "Superman", "Spider-Man"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which instrument is used to look at stars?",
+            "correctAnswer": "Telescope",
+            "options": ["Telescope", "Microscope", "Binoculars"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do you call the organ that pumps blood through the body?",
+            "correctAnswer": "Heart",
+            "options": ["Brain", "Heart", "Lungs"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "How many wheels does a bicycle have?",
+            "correctAnswer": "2",
+            "options": ["2", "3", "4"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which country is known as the Land of the Rising Sun?",
+            "correctAnswer": "Japan",
+            "options": ["China", "Korea", "Japan"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the process by which plants make their food?",
+            "correctAnswer": "Photosynthesis",
+            "options": ["Respiration", "Photosynthesis", "Digestion"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which natural satellite orbits the Earth?",
+            "correctAnswer": "Moon",
+            "options": ["Mars", "Sun", "Moon"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do you call a scientist who studies space?",
+            "correctAnswer": "Astronomer",
+            "options": ["Biologist", "Astronomer", "Geologist"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which reptile has a long tail and can change its color?",
+            "correctAnswer": "Chameleon",
+            "options": ["Chameleon", "Snake", "Lizard"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do you call the pointy top of a mountain?",
+            "correctAnswer": "Peak",
+            "options": ["Cliff", "Peak", "Valley"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which vehicle can fly in the sky?",
+            "correctAnswer": "Airplane",
+            "options": ["Car", "Boat", "Airplane"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which metal is a good conductor of electricity?",
+            "correctAnswer": "Copper",
+            "options": ["Iron", "Copper", "Plastic"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which bird is often kept as a pet and can mimic sounds?",
+            "correctAnswer": "Parrot",
+            "options": ["Parrot", "Owl", "Crow"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which type of animal is a whale?",
+            "correctAnswer": "Mammal",
+            "options": ["Fish", "Mammal", "Reptile"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which famous tower is located in Paris, France?",
+            "correctAnswer": "Eiffel Tower",
+            "options": ["Eiffel Tower", "Big Ben", "Leaning Tower of Pisa"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which holiday involves carving pumpkins?",
+            "correctAnswer": "Halloween",
+            "options": ["Christmas", "Halloween", "Thanksgiving"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which machine is used to clean carpets and floors?",
+            "correctAnswer": "Vacuum Cleaner",
+            "options": ["Washing Machine", "Vacuum Cleaner", "Dishwasher"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which bird is known for its hooting sound?",
+            "correctAnswer": "Owl",
+            "options": ["Crow", "Owl", "Peacock"],
+            "category": "General Knowledge"
+        }
+    ]
+}

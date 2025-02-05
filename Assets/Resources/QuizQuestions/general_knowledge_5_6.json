@@ -1,0 +1,292 @@
+{
+    "questions": [
+        {
+            "question": "What color is the sky on a clear day?",
+            "correctAnswer": "Blue",
+            "options": ["Blue", "Green", "Red"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which animal says 'meow'?",
+            "correctAnswer": "Cat",
+            "options": ["Dog", "Cat", "Cow"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do we drink that comes from cows?",
+            "correctAnswer": "Milk",
+            "options": ["Juice", "Milk", "Water"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "How many legs does a spider have?",
+            "correctAnswer": "8",
+            "options": ["6", "8", "10"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the opposite of 'up'?",
+            "correctAnswer": "Down",
+            "options": ["Left", "Right", "Down"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which fruit is yellow and curved?",
+            "correctAnswer": "Banana",
+            "options": ["Apple", "Banana", "Orange"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do bees make?",
+            "correctAnswer": "Honey",
+            "options": ["Milk", "Honey", "Juice"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do you wear on your feet?",
+            "correctAnswer": "Shoes",
+            "options": ["Hat", "Shoes", "Gloves"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which shape has 3 sides?",
+            "correctAnswer": "Triangle",
+            "options": ["Square", "Triangle", "Circle"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What color are ripe strawberries?",
+            "correctAnswer": "Red",
+            "options": ["Green", "Red", "Yellow"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What does a cow say?",
+            "correctAnswer": "Moo",
+            "options": ["Baa", "Moo", "Quack"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which season is cold and snowy?",
+            "correctAnswer": "Winter",
+            "options": ["Spring", "Winter", "Summer"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do you use to brush your teeth?",
+            "correctAnswer": "Toothbrush",
+            "options": ["Comb", "Toothbrush", "Towel"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "How many fingers do you have on one hand?",
+            "correctAnswer": "5",
+            "options": ["4", "5", "6"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do you call a baby cat?",
+            "correctAnswer": "Kitten",
+            "options": ["Puppy", "Kitten", "Foal"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do you see in the night sky?",
+            "correctAnswer": "Stars",
+            "options": ["Clouds", "Stars", "Rainbows"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What color is a stop sign?",
+            "correctAnswer": "Red",
+            "options": ["Green", "Blue", "Red"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which insect makes a buzzing sound?",
+            "correctAnswer": "Bee",
+            "options": ["Bee", "Ant", "Butterfly"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do you call a group of fish?",
+            "correctAnswer": "School",
+            "options": ["Pack", "School", "Flock"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What color are carrots?",
+            "correctAnswer": "Orange",
+            "options": ["Yellow", "Orange", "Purple"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do you call water when it freezes?",
+            "correctAnswer": "Ice",
+            "options": ["Steam", "Ice", "Rain"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which animal is the largest in the ocean?",
+            "correctAnswer": "Whale",
+            "options": ["Shark", "Dolphin", "Whale"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the color of a cucumber?",
+            "correctAnswer": "Green",
+            "options": ["Red", "Green", "Yellow"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do you use to cut paper?",
+            "correctAnswer": "Scissors",
+            "options": ["Scissors", "Pencil", "Eraser"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do you call a house made of ice?",
+            "correctAnswer": "Igloo",
+            "options": ["Cabin", "Igloo", "Tent"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which animal lives in a den and hibernates?",
+            "correctAnswer": "Bear",
+            "options": ["Lion", "Bear", "Tiger"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What shape is a wheel?",
+            "correctAnswer": "Circle",
+            "options": ["Square", "Circle", "Triangle"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do you call a baby dog?",
+            "correctAnswer": "Puppy",
+            "options": ["Kitten", "Foal", "Puppy"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do birds use to fly?",
+            "correctAnswer": "Wings",
+            "options": ["Wings", "Fins", "Legs"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Where do penguins live?",
+            "correctAnswer": "Antarctica",
+            "options": ["Australia", "Antarctica", "Africa"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which vegetable makes you cry when you cut it?",
+            "correctAnswer": "Onion",
+            "options": ["Carrot", "Onion", "Potato"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is a baby sheep called?",
+            "correctAnswer": "Lamb",
+            "options": ["Foal", "Calf", "Lamb"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do you call the sound a duck makes?",
+            "correctAnswer": "Quack",
+            "options": ["Moo", "Quack", "Baa"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do we use to write on a blackboard?",
+            "correctAnswer": "Chalk",
+            "options": ["Pen", "Chalk", "Brush"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which planet do we live on?",
+            "correctAnswer": "Earth",
+            "options": ["Mars", "Earth", "Venus"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What does a doctor use to check your heartbeat?",
+            "correctAnswer": "Stethoscope",
+            "options": ["Microscope", "Stethoscope", "Thermometer"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which animal is known as man's best friend?",
+            "correctAnswer": "Dog",
+            "options": ["Cat", "Dog", "Parrot"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do you use to clean your hands?",
+            "correctAnswer": "Soap",
+            "options": ["Soap", "Toothpaste", "Shampoo"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which vehicle moves on tracks and has a whistle?",
+            "correctAnswer": "Train",
+            "options": ["Car", "Airplane", "Train"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What color are school buses usually painted?",
+            "correctAnswer": "Yellow",
+            "options": ["Blue", "Yellow", "Green"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Where does the sun go when it sets?",
+            "correctAnswer": "Behind the horizon",
+            "options": ["Into the ocean", "Behind the clouds", "Behind the horizon"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which day comes after Friday?",
+            "correctAnswer": "Saturday",
+            "options": ["Thursday", "Saturday", "Sunday"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the name of the toy cowboy in Toy Story?",
+            "correctAnswer": "Woody",
+            "options": ["Buzz", "Woody", "Jessie"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do you call the place where we learn?",
+            "correctAnswer": "School",
+            "options": ["Park", "School", "Library"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do you use to measure time?",
+            "correctAnswer": "Clock",
+            "options": ["Mirror", "Clock", "Compass"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which insect has colorful wings and flies?",
+            "correctAnswer": "Butterfly",
+            "options": ["Bee", "Butterfly", "Ant"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Where do we put food to keep it cold?",
+            "correctAnswer": "Refrigerator",
+            "options": ["Oven", "Freezer", "Refrigerator"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What do you call the small river animal with a shell on its back?",
+            "correctAnswer": "Turtle",
+            "options": ["Frog", "Turtle", "Fish"],
+            "category": "General Knowledge"
+        }
+    ]
+}

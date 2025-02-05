@@ -1,0 +1,286 @@
+{
+    "questions": [
+        {
+            "question": "Which planet is the largest in our solar system?",
+            "correctAnswer": "Jupiter",
+            "options": ["Saturn", "Jupiter", "Neptune"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which is the longest river in the world?",
+            "correctAnswer": "Nile",
+            "options": ["Amazon", "Nile", "Yangtze"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the chemical symbol for water?",
+            "correctAnswer": "H2O",
+            "options": ["O2", "H2O", "CO2"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which continent is known as the 'Dark Continent'?",
+            "correctAnswer": "Africa",
+            "options": ["Asia", "Africa", "Europe"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which element is known as the building block of life?",
+            "correctAnswer": "Carbon",
+            "options": ["Oxygen", "Carbon", "Hydrogen"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which is the largest mammal on Earth?",
+            "correctAnswer": "Blue Whale",
+            "options": ["Elephant", "Blue Whale", "Giraffe"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the hardest natural substance on Earth?",
+            "correctAnswer": "Diamond",
+            "options": ["Gold", "Iron", "Diamond"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the freezing point of water?",
+            "correctAnswer": "0°C",
+            "options": ["-10°C", "0°C", "5°C"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which gas do plants absorb during photosynthesis?",
+            "correctAnswer": "Carbon Dioxide",
+            "options": ["Oxygen", "Nitrogen", "Carbon Dioxide"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Who was the first man to walk on the moon?",
+            "correctAnswer": "Neil Armstrong",
+            "options": ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which part of the plant conducts photosynthesis?",
+            "correctAnswer": "Leaf",
+            "options": ["Root", "Stem", "Leaf"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "How many teeth does an adult human have?",
+            "correctAnswer": "32",
+            "options": ["28", "30", "32"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which ocean is the smallest in the world?",
+            "correctAnswer": "Arctic Ocean",
+            "options": ["Arctic Ocean", "Indian Ocean", "Southern Ocean"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the capital city of Australia?",
+            "correctAnswer": "Canberra",
+            "options": ["Sydney", "Canberra", "Melbourne"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which gas is most abundant in Earth's atmosphere?",
+            "correctAnswer": "Nitrogen",
+            "options": ["Oxygen", "Carbon Dioxide", "Nitrogen"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Who painted the Mona Lisa?",
+            "correctAnswer": "Leonardo da Vinci",
+            "options": ["Pablo Picasso", "Leonardo da Vinci", "Vincent van Gogh"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which organ in the human body is responsible for pumping blood?",
+            "correctAnswer": "Heart",
+            "options": ["Lungs", "Heart", "Brain"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which is the highest mountain in the world?",
+            "correctAnswer": "Mount Everest",
+            "options": ["K2", "Mount Everest", "Kangchenjunga"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which country is known for the Eiffel Tower?",
+            "correctAnswer": "France",
+            "options": ["Germany", "France", "Italy"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the square root of 81?",
+            "correctAnswer": "9",
+            "options": ["7", "8", "9"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which part of the body helps us hear sounds?",
+            "correctAnswer": "Ears",
+            "options": ["Eyes", "Nose", "Ears"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which type of animal lays eggs?",
+            "correctAnswer": "Birds",
+            "options": ["Birds", "Mammals", "Reptiles"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which country is famous for pizza?",
+            "correctAnswer": "Italy",
+            "options": ["France", "Italy", "Spain"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the boiling point of water in degrees Celsius?",
+            "correctAnswer": "100°C",
+            "options": ["50°C", "100°C", "120°C"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What type of instrument is a piano?",
+            "correctAnswer": "String",
+            "options": ["Percussion", "Wind", "String"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which planet is closest to the Sun?",
+            "correctAnswer": "Mercury",
+            "options": ["Venus", "Earth", "Mercury"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Who wrote the play 'Romeo and Juliet'?",
+            "correctAnswer": "William Shakespeare",
+            "options": ["Mark Twain", "William Shakespeare", "Charles Dickens"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which country is the largest in the world by area?",
+            "correctAnswer": "Russia",
+            "options": ["Canada", "China", "Russia"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the smallest unit of matter?",
+            "correctAnswer": "Atom",
+            "options": ["Molecule", "Atom", "Particle"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which natural disaster is measured by a Richter scale?",
+            "correctAnswer": "Earthquake",
+            "options": ["Volcano", "Earthquake", "Tsunami"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which planet is known as the Blue Planet?",
+            "correctAnswer": "Earth",
+            "options": ["Neptune", "Earth", "Uranus"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Who invented the telephone?",
+            "correctAnswer": "Alexander Graham Bell",
+            "options": ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which organ is responsible for detoxifying chemicals in the body?",
+            "correctAnswer": "Liver",
+            "options": ["Liver", "Heart", "Kidney"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which bird is a symbol of peace?",
+            "correctAnswer": "Dove",
+            "options": ["Eagle", "Dove", "Sparrow"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which is the fastest land animal?",
+            "correctAnswer": "Cheetah",
+            "options": ["Lion", "Cheetah", "Tiger"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the main language spoken in Spain?",
+            "correctAnswer": "Spanish",
+            "options": ["French", "Spanish", "Portuguese"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What type of animal is a Komodo dragon?",
+            "correctAnswer": "Lizard",
+            "options": ["Snake", "Lizard", "Crocodile"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which force pulls objects toward the Earth?",
+            "correctAnswer": "Gravity",
+            "options": ["Magnetism", "Friction", "Gravity"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the currency of Japan?",
+            "correctAnswer": "Yen",
+            "options": ["Won", "Yuan", "Yen"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which is the largest desert in the world?",
+            "correctAnswer": "Sahara",
+            "options": ["Gobi", "Sahara", "Kalahari"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Who discovered gravity by observing a falling apple?",
+            "correctAnswer": "Isaac Newton",
+            "options": ["Albert Einstein", "Galileo Galilei", "Isaac Newton"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the largest bone in the human body?",
+            "correctAnswer": "Femur",
+            "options": ["Humerus", "Femur", "Tibia"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which two colors make green when mixed together?",
+            "correctAnswer": "Blue and Yellow",
+            "options": ["Red and Yellow", "Blue and Yellow", "Blue and Red"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the process called when water turns into vapor?",
+            "correctAnswer": "Evaporation",
+            "options": ["Condensation", "Evaporation", "Sublimation"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which country gifted the Statue of Liberty to the USA?",
+            "correctAnswer": "France",
+            "options": ["France", "Spain", "Italy"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which is the smallest bird in the world?",
+            "correctAnswer": "Bee Hummingbird",
+            "options": ["Sparrow", "Bee Hummingbird", "Robin"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the study of living organisms called?",
+            "correctAnswer": "Biology",
+            "options": ["Physics", "Biology", "Chemistry"],
+            "category": "General Knowledge"
+        }
+    ]
+}

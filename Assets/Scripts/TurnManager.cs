@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TurnManager : MonoBehaviour
 {
@@ -14,7 +15,8 @@ public class TurnManager : MonoBehaviour
     public Button abilitySelectionButton;
     public Button endTurnButton;
     public TextMeshProUGUI diceResultText;
-
+    public GameObject gameOverCanvas;
+    public TextMeshProUGUI gameOverText;
     private Player currentPlayer;
     private Player nextPlayer;  // Track the player who goes second in the current round
     private bool isFirstTurnOfRound = true;  // Track if it's the first or second turn of the round
@@ -23,14 +25,28 @@ public class TurnManager : MonoBehaviour
     void Start()
     {
         SetupInitialUI();
+        gameOverCanvas.SetActive(false);
     }
-
     void Update()
     {
         if (CheckWinConditions())
         {
-            enabled = false;  // Stops the game when a player wins
+            ShowGameOverScreen();
+            enabled = false;  // Stops further game logic once a player wins
         }
+    }
+
+    private void ShowGameOverScreen()
+    {
+        gameOverCanvas.SetActive(true);  // Display the Game Over UI
+
+        string winningPlayer = (player1.pawnsRemaining <= 0) ? player2.GetPlayerName() : player1.GetPlayerName();
+        gameOverText.text = $"{winningPlayer} wins!";  // Update the Game Over text
+    }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);  // Restart the current scene
     }
 
     public void InitializePlayers()

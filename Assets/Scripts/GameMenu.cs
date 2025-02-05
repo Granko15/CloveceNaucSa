@@ -28,7 +28,9 @@ public class GameMenu : MonoBehaviour
 
     public void LoadQuestionsFromJson()
     {
-        TextAsset jsonFile = Resources.Load<TextAsset>("QuizQuestions/questions");
+        string jsonFileName = $"{PlayerPrefs.GetString("selectedAgeGroup")}";
+        Debug.Log($"Selected age group: {jsonFileName}");
+        TextAsset jsonFile = Resources.Load<TextAsset>($"QuizQuestions/{jsonFileName}");
         if (jsonFile == null)
         {
             Debug.LogError("Failed to load JSON file from Resources/QuizQuestions/questions.json");

@@ -1,0 +1,268 @@
+{
+    "questions": [
+        {
+            "question": "Which gas is commonly known as laughing gas?",
+            "correctAnswer": "Nitrous Oxide",
+            "options": ["Carbon Dioxide", "Nitrous Oxide", "Oxygen"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which ancient civilization built the pyramids?",
+            "correctAnswer": "Egyptians",
+            "options": ["Greeks", "Romans", "Egyptians"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which planet is known for having rings around it?",
+            "correctAnswer": "Saturn",
+            "options": ["Jupiter", "Uranus", "Saturn"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the chemical symbol for gold?",
+            "correctAnswer": "Au",
+            "options": ["Au", "Ag", "Pt"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which ocean surrounds the continent of Australia?",
+            "correctAnswer": "Indian Ocean",
+            "options": ["Pacific Ocean", "Indian Ocean", "Southern Ocean"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which Greek god is known as the god of the sea?",
+            "correctAnswer": "Poseidon",
+            "options": ["Zeus", "Hades", "Poseidon"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which element has the atomic number 1?",
+            "correctAnswer": "Hydrogen",
+            "options": ["Oxygen", "Nitrogen", "Hydrogen"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which famous scientist developed the theory of relativity?",
+            "correctAnswer": "Albert Einstein",
+            "options": ["Isaac Newton", "Albert Einstein", "Marie Curie"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the most abundant gas in Earth's atmosphere?",
+            "correctAnswer": "Nitrogen",
+            "options": ["Oxygen", "Carbon Dioxide", "Nitrogen"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which country has the largest population in the world?",
+            "correctAnswer": "China",
+            "options": ["India", "China", "United States"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the process by which plants release oxygen?",
+            "correctAnswer": "Photosynthesis",
+            "options": ["Respiration", "Photosynthesis", "Transpiration"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which city is home to the famous Colosseum?",
+            "correctAnswer": "Rome",
+            "options": ["Athens", "Rome", "Paris"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the capital city of Japan?",
+            "correctAnswer": "Tokyo",
+            "options": ["Kyoto", "Osaka", "Tokyo"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which part of the cell contains genetic material?",
+            "correctAnswer": "Nucleus",
+            "options": ["Cytoplasm", "Nucleus", "Mitochondria"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Who was the first President of the United States?",
+            "correctAnswer": "George Washington",
+            "options": ["George Washington", "Abraham Lincoln", "Thomas Jefferson"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the study of fossils called?",
+            "correctAnswer": "Paleontology",
+            "options": ["Geology", "Archaeology", "Paleontology"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the name of the largest rainforest in the world?",
+            "correctAnswer": "Amazon Rainforest",
+            "options": ["Congo Rainforest", "Amazon Rainforest", "Daintree Rainforest"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which organ in the human body is responsible for filtering blood?",
+            "correctAnswer": "Kidneys",
+            "options": ["Liver", "Lungs", "Kidneys"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which planet is known as the Morning Star or Evening Star?",
+            "correctAnswer": "Venus",
+            "options": ["Mars", "Venus", "Mercury"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the capital of Canada?",
+            "correctAnswer": "Ottawa",
+            "options": ["Toronto", "Vancouver", "Ottawa"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the longest bone in the human body?",
+            "correctAnswer": "Femur",
+            "options": ["Tibia", "Femur", "Humerus"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which blood type is known as the universal donor?",
+            "correctAnswer": "O negative",
+            "options": ["A positive", "B negative", "O negative"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Who discovered penicillin?",
+            "correctAnswer": "Alexander Fleming",
+            "options": ["Alexander Fleming", "Marie Curie", "Louis Pasteur"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the smallest country in the world by area?",
+            "correctAnswer": "Vatican City",
+            "options": ["Monaco", "San Marino", "Vatican City"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the largest internal organ in the human body?",
+            "correctAnswer": "Liver",
+            "options": ["Heart", "Lungs", "Liver"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which ocean is the deepest in the world?",
+            "correctAnswer": "Pacific Ocean",
+            "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the chemical formula for table salt?",
+            "correctAnswer": "NaCl",
+            "options": ["NaCl", "KCl", "MgCl2"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which famous explorer discovered America in 1492?",
+            "correctAnswer": "Christopher Columbus",
+            "options": ["Vasco da Gama", "Ferdinand Magellan", "Christopher Columbus"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the capital of South Korea?",
+            "correctAnswer": "Seoul",
+            "options": ["Busan", "Seoul", "Incheon"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which scientist proposed the laws of motion and gravity?",
+            "correctAnswer": "Isaac Newton",
+            "options": ["Galileo Galilei", "Isaac Newton", "Albert Einstein"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the powerhouse of the cell?",
+            "correctAnswer": "Mitochondria",
+            "options": ["Nucleus", "Cytoplasm", "Mitochondria"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which is the smallest planet in our solar system?",
+            "correctAnswer": "Mercury",
+            "options": ["Mars", "Mercury", "Venus"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Who wrote 'The Adventures of Tom Sawyer'?",
+            "correctAnswer": "Mark Twain",
+            "options": ["Mark Twain", "Charles Dickens", "Jules Verne"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which part of the body controls the functions of other organs?",
+            "correctAnswer": "Brain",
+            "options": ["Heart", "Liver", "Brain"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the chemical symbol for iron?",
+            "correctAnswer": "Fe",
+            "options": ["Ir", "Fe", "In"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which element is liquid at room temperature?",
+            "correctAnswer": "Mercury",
+            "options": ["Gold", "Lead", "Mercury"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the term for animals that only eat plants?",
+            "correctAnswer": "Herbivores",
+            "options": ["Carnivores", "Omnivores", "Herbivores"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What type of rock is formed from cooled lava or magma?",
+            "correctAnswer": "Igneous Rock",
+            "options": ["Sedimentary Rock", "Igneous Rock", "Metamorphic Rock"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which ancient empire built the aqueducts?",
+            "correctAnswer": "Romans",
+            "options": ["Greeks", "Romans", "Egyptians"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the name of the boundary between Earth’s crust and mantle?",
+            "correctAnswer": "Mohorovicic Discontinuity",
+            "options": ["Fault Line", "Tectonic Plate", "Mohorovicic Discontinuity"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the largest planet in our solar system?",
+            "correctAnswer": "Jupiter",
+            "options": ["Saturn", "Jupiter", "Uranus"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "What is the human body’s largest organ by surface area?",
+            "correctAnswer": "Skin",
+            "options": ["Liver", "Lungs", "Skin"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which layer of the Earth do we live on?",
+            "correctAnswer": "Crust",
+            "options": ["Core", "Mantle", "Crust"],
+            "category": "General Knowledge"
+        },
+        {
+            "question": "Which instrument is used to measure earthquakes?",
+            "correctAnswer": "Seismometer",
+            "options": ["Barometer", "Seismometer", "Thermometer"],
+            "category": "General Knowledge"
+        }
+    ]
+}
