@@ -19,7 +19,6 @@ public class PawnController : MonoBehaviour
     public void PerformActionOnClick(TurnManager turnManager)
     {
         Debug.Log($"Action triggered for Pawn {pawnId}");
-        // Add your custom logic here (e.g., selecting the pawn, moving it, etc.)
         Player currentPlayer = turnManager.GetCurrentPlayer();
 
         if (currentPlayer != null) 
@@ -29,7 +28,7 @@ public class PawnController : MonoBehaviour
             {
                 if (currentPlayer.playerId == playerId) // handle friendly fire
                 {
-                    Debug.Log("You cannot use your own pawn");
+                    Debug.Log("You cannot shoot your own pawn");
                     return;
                 }
                 Shoot(turnManager.GetOpponent(), currentPlayer); // we clicked oppponent pawn
@@ -62,6 +61,7 @@ public class PawnController : MonoBehaviour
             isShielded = false;
             return;
         }
+        this.gameObject.SetActive(false);
         opponent.pawnsRemaining--;
         currentPlayer.CheckWinCondition();
     }
