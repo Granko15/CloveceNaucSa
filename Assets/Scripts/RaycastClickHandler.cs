@@ -17,11 +17,15 @@ public class RaycastClickHandler : MonoBehaviour
 
                 GameObject clickedObject = hit.collider.gameObject;
                 PawnController pawn = clickedObject.GetComponentInParent<PawnController>();
+                TurnManager turnManager = GetComponentInParent<TurnManager>();
 
                 if (pawn != null)
                 {
                     Debug.Log($"Player Pawn {pawn.GetPawnId()} clicked!");
-                    pawn.PerformActionOnClick();
+                    if (turnManager != null) 
+                    {
+                        pawn.PerformActionOnClick(turnManager);
+                    }
                 }
                 else
                 {

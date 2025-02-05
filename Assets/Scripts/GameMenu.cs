@@ -11,11 +11,13 @@ public class GameMenu : MonoBehaviour
     [SerializeField] private GameObject Player2Name;
     private List<QuizQuestion> Questions = new List<QuizQuestion>();
     private QuizQuestion CurrentQuestion;
+    TurnManager turnManager;
 
     void Awake()
     {
         Abilities.SetActive(false);
         QuestionObject.SetActive(false);
+        turnManager = GetComponentInParent<TurnManager>(); 
 
     }
 
@@ -60,24 +62,28 @@ public class GameMenu : MonoBehaviour
     {
         HideAbilitiesPanel();
         Debug.Log("Shoot ability selected.");
+        Player currentPlayer = turnManager.GetCurrentPlayer();
+        currentPlayer.SetAbilityToUse("Shoot");
     }
 
     public void Shield()
     {
         HideAbilitiesPanel();
         Debug.Log("Shield ability selected.");
+        Player currentPlayer = turnManager.GetCurrentPlayer();
+        currentPlayer.SetAbilityToUse("Shield");
     }
 
-    public void SwitchPlaces()
+    public void Heal()
     {
         HideAbilitiesPanel();
-        Debug.Log("Switch Places ability selected.");
-    }
-
-    public void KnockoutEnemy()
-    {
-        HideAbilitiesPanel();
-        Debug.Log("Knockout Enemy ability selected.");
+        Debug.Log("Heal ability selected.");
+        Player currentPlayer = turnManager.GetCurrentPlayer();
+        if (currentPlayer.CanHealAPawn())
+        {
+            currentPlayer.Heal();
+        }
+        
     }
 
     private void HideAbilitiesPanel()

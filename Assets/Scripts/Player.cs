@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
     public string playerName;  // Player's name
     public int pawnsRemaining = 6;  // Number of pawns the player starts with
     public bool isWinner = false;
+    public string abilityToUse = null;
 
 
     private void Start()
@@ -21,6 +22,26 @@ public class Player : MonoBehaviour
     public string GetPlayerName()
     {
         return playerName;
+    }
+    public void SetAbilityToUse(string ability)
+    {
+        abilityToUse = ability;
+    }
+
+    public string GetAbilityToUse() 
+    {
+        return abilityToUse;
+
+    }
+    public bool CanHealAPawn() 
+    {
+        return HasPawnsRemaining() && pawnsRemaining < 6;
+
+    }
+
+    public void Heal() 
+    {
+        pawnsRemaining++;
     }
 
     public void UsePawn(int pawnId)

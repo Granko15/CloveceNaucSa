@@ -57,7 +57,6 @@ public class TurnManager : MonoBehaviour
     // Switch to the next player
     public void NextTurn()
     {
-      
         currentPlayer = (currentPlayer == player1) ? player2 : player1;  // Toggle between players
         Debug.Log($"Switching to Player {currentPlayer.GetPlayerName()}'s turn.");
         DisplayCurrentPlayerTurn();
@@ -82,5 +81,8 @@ public class TurnManager : MonoBehaviour
     {
         return currentPlayer;
     }
-
+    public Player GetOpponent()
+    {
+        return (currentPlayer == player1) ? player2 : player1;
+    }
 }
