@@ -1,5 +1,4 @@
 using TMPro;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,81 +7,163 @@ public class TurnManager : MonoBehaviour
     public Player player1;
     public Player player2;
     public TextMeshProUGUI turnDisplayText;
-    public GameObject playerNamePanel;  // Panel with the input fields
+    public GameObject playerNamePanel;
     public TMP_InputField player1Input;
     public TMP_InputField player2Input;
-    public Button startButton;
+    public Button diceRollButton;
+    public Button abilitySelectionButton;
     public Button endTurnButton;
+    public TextMeshProUGUI diceResultText;
+
     private Player currentPlayer;
-    public GameMenu gameMenu;
+    private Player nextPlayer;  // Track the player who goes second in the current round
+    private bool isFirstTurnOfRound = true;  // Track if it's the first or second turn of the round
+    public DiceRoller diceRoller;
 
     void Start()
     {
-        // Initialize panel and button listener
-        playerNamePanel.SetActive(true);  // Show the input panel
-        currentPlayer = player1;  // Player 1 starts the game
-        DisplayCurrentPlayerTurn();
+        SetupInitialUI();
     }
 
-    // Called when "Start Game" button is clicked
+    void Update()
+    {
+        if (CheckWinConditions())
+        {
+            enabled = false;  // Stops the game when a player wins
+        }
+    }
+
     public void InitializePlayers()
     {
-        // Set player names from the input fields
-        player1.GetComponent<Player>().SetPlayerName(player1Input.text);
-        player2.GetComponent<Player>().SetPlayerName(player2Input.text);
+        player1.SetPlayerName(player1Input.text);
+        player2.SetPlayerName(player2Input.text);
 
-        // Debug to confirm names
-        Debug.Log($"Player 1: {player1Input.text}, Player 2: {player2Input.text}");
-
-        // Hide the player name input panel and show the turn UI
         playerNamePanel.SetActive(false);
-        currentPlayer = player1;  // Player 1 starts the game
-        DisplayCurrentPlayerTurn();
-    }    
+        turnDisplayText.text = "Roll the dice to determine who starts.";
+        diceRollButton.interactable = true;
+    }
 
-    public bool CheckWinner()
+    public void OnDiceRollClicked()
     {
-        if (player1.CheckWinCondition())
+        int player1Roll = diceRoller.RollDiceResult();
+        int player2Roll = diceRoller.RollDiceResult();
+        diceResultText.text = $"{player1.GetPlayerName()} rolled: {player1Roll}, {player2.GetPlayerName()} rolled: {player2Roll}";
+
+        if (player1Roll == player2Roll)
         {
-            Debug.Log("Player 1 wins!");
-            return true;
+            HandleTie();
         }
-        else if (player2.CheckWinCondition())
+        else
         {
-            Debug.Log("Player 2 wins!");
-            return true;
+            DetermineStartingPlayer(player1Roll, player2Roll);
+            diceRollButton.interactable = false;
         }
-        return false;
-    }
-    // Switch to the next player
-    public void NextTurn()
-    {
-        currentPlayer = (currentPlayer == player1) ? player2 : player1;  // Toggle between players
-        Debug.Log($"Switching to Player {currentPlayer.GetPlayerName()}'s turn.");
-        DisplayCurrentPlayerTurn();
-    
     }
 
-    private void GameOver()
+    private void DetermineStartingPlayer(int player1Roll, int player2Roll)
     {
-        Debug.Log($"{currentPlayer.name} wins!");
+        if (player1Roll > player2Roll)
+        {
+            currentPlayer = player1;
+            nextPlayer = player2;
+        }
+        else
+        {
+            currentPlayer = player2;
+            nextPlayer = player1;
+        }
+
+        turnDisplayText.text = $"{currentPlayer.GetPlayerName()} starts the round.";
+        abilitySelectionButton.interactable = true;
+        isFirstTurnOfRound = true;  // Reset for a new round
     }
 
-    // Display the current player's turn in the UI
-    private void DisplayCurrentPlayerTurn()
+    public void PlayerAnsweredCorrectly()
     {
-        string playerName = currentPlayer.GetPlayerName();
-        turnDisplayText.text = $"{playerName}'s Turn";
-        Debug.Log($"It's {playerName}'s turn.");
+        endTurnButton.interactable = true;
+        abilitySelectionButton.interactable = false;
     }
 
-    // Get the current player
+    public void PlayerAnsweredIncorrectly()
+    {
+        Debug.Log($"{currentPlayer.GetPlayerName()} answered incorrectly. Skipping their turn.");
+        MoveToNextTurn();
+    }
+
+    public void EndTurn()
+    {
+        MoveToNextTurn();
+    }
+
+    private void MoveToNextTurn()
+    {
+        if (isFirstTurnOfRound)
+        {
+            // Switch to the next player for the second turn of the round
+            currentPlayer = nextPlayer;
+            isFirstTurnOfRound = false;
+            Debug.Log("NEXTTTTTTT");
+            turnDisplayText.text = $"{currentPlayer.GetPlayerName()}'s Turn.";
+        }
+        else
+        {
+            // Both players have taken their turns; reset for the next round
+            ResetForNextRound();
+        }
+
+        abilitySelectionButton.interactable = true;
+        endTurnButton.interactable = false;
+    }
+
+    private void ResetForNextRound()
+    {
+        turnDisplayText.text = "Both players have completed their turns. Roll the dice for the next round.";
+        diceResultText.text = "---";
+
+        diceRollButton.interactable = true;
+        abilitySelectionButton.interactable = false;
+        endTurnButton.interactable = false;
+    }
+
+    private void HandleTie()
+    {
+        Debug.Log("It's a tie! Roll again.");
+        turnDisplayText.text = "It's a tie! Roll the dice again.";
+        diceRollButton.interactable = true;
+        abilitySelectionButton.interactable = false;
+    }
+
+    private void SetupInitialUI()
+    {
+        playerNamePanel.SetActive(true);
+        turnDisplayText.text = "Enter player names to start.";
+        diceRollButton.interactable = false;
+        abilitySelectionButton.interactable = false;
+        endTurnButton.interactable = false;
+    }
+
     public Player GetCurrentPlayer()
     {
         return currentPlayer;
     }
+
     public Player GetOpponent()
     {
         return (currentPlayer == player1) ? player2 : player1;
+    }
+
+    public bool CheckWinConditions()
+    {
+        if (player1.pawnsRemaining <= 0)
+        {
+            Debug.Log($"Player {player2.GetPlayerName()} wins!");
+            return true;
+        }
+        else if (player2.pawnsRemaining <= 0)
+        {
+            Debug.Log($"Player {player1.GetPlayerName()} wins!");
+            return true;
+        }
+        return false;
     }
 }

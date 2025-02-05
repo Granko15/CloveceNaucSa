@@ -9,15 +9,15 @@ public class GameMenu : MonoBehaviour
     [SerializeField] private GameObject QuestionObject;
     [SerializeField] private GameObject Player1Name;
     [SerializeField] private GameObject Player2Name;
+    [SerializeField] private TurnManager turnManager;
+
     private List<QuizQuestion> Questions = new List<QuizQuestion>();
     private QuizQuestion CurrentQuestion;
-    TurnManager turnManager;
 
     void Awake()
     {
         Abilities.SetActive(false);
         QuestionObject.SetActive(false);
-        turnManager = GetComponentInParent<TurnManager>(); 
 
     }
 
@@ -131,21 +131,19 @@ public class GameMenu : MonoBehaviour
         CheckAnswer(selectedOption, CurrentQuestion.GetAnswer());
     }
 
-    public void CheckAnswer(string buttonText, string answer)
+    public void CheckAnswer(string playerAnswer, string correctAnswer)
     {
-        if (buttonText == answer)
+        if (playerAnswer == correctAnswer)
         {
             Debug.Log("Correct! Ability activated.");
-            // Additional logic for correct answer
+            turnManager.PlayerAnsweredCorrectly();
         }
         else
         {
-            Debug.Log("Incorrect! Ability on cooldown.");
-            // Additional logic for incorrect answer
+            Debug.Log("Incorrect! Skipping turn.");
+            turnManager.PlayerAnsweredIncorrectly();
         }
 
-        // Hide the question panel after checking the answer
         QuestionObject.SetActive(false);
-        
     }
 }
