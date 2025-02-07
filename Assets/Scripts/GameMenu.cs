@@ -10,6 +10,7 @@ public class GameMenu : MonoBehaviour
     [SerializeField] private GameObject Player1Name;
     [SerializeField] private GameObject Player2Name;
     [SerializeField] private TurnManager turnManager;
+    public SoundEffectsPlayer soundEffectsPlayer;
 
     private List<QuizQuestion> Questions = new List<QuizQuestion>();
     private QuizQuestion CurrentQuestion;
@@ -138,11 +139,13 @@ public class GameMenu : MonoBehaviour
         if (playerAnswer == correctAnswer)
         {
             Debug.Log("Correct! Ability activated.");
+            soundEffectsPlayer.PlayCorrectAnswerSound();
             turnManager.PlayerAnsweredCorrectly();
         }
         else
         {
             Debug.Log("Incorrect! Skipping turn.");
+            soundEffectsPlayer.PlayWrongAnswerSound();
             turnManager.PlayerAnsweredIncorrectly();
         }
 

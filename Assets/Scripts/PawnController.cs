@@ -4,7 +4,7 @@ public class PawnController : MonoBehaviour
 {
     [SerializeField] private int playerId;
     [SerializeField] private int pawnId;
-
+    public SoundEffectsPlayer soundEffectsPlayer;
     private bool isShielded;
 
     public int GetPawnId()
@@ -23,10 +23,13 @@ public class PawnController : MonoBehaviour
             if (selectedAbility.Equals("Shoot")) 
             {
                 if (currentPlayer.playerId == playerId) // handle friendly fire
-                {
+                {   
+                    soundEffectsPlayer.PlayWrongCharacterSelectedSound();
                     Debug.Log("You cannot shoot your own pawn");
                     return;
                 }
+                soundEffectsPlayer.PlayCharacterShotSound();
+                soundEffectsPlayer.PlayCharacterDiedSound();
                 Shoot(turnManager.GetOpponent(), currentPlayer); // we clicked oppponent pawn
             }
             else if (selectedAbility.Equals("Shield")) 
@@ -36,6 +39,7 @@ public class PawnController : MonoBehaviour
                     ShieldYourself();
                     return;
                 }
+                soundEffectsPlayer.PlayWrongCharacterSelectedSound();
                 Debug.Log("Cannot apply shield to enemy pawn");
             }
         }
